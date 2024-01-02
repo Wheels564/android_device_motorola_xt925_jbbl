@@ -37,10 +37,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/config/snd_soc_msm_2x:system/etc/snd_soc_msm/snd_soc_msm_2x
 
-# Media config
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/config/media_profiles.xml:system/etc/media_profiles.xml
-
 # Recovery/IDC
 PRODUCT_COPY_FILES += \
     device/motorola/qcom-common/idc/atmxt-i2c.idc:system/usr/idc/atmxt-i2c.idc \
